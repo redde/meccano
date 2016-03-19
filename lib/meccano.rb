@@ -1,4 +1,4 @@
-require "meccano/engine"
+require 'meccano/engine'
 
 module Meccano
 end

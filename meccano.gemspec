@@ -1,4 +1,4 @@
-$:.push File.expand_path('../lib', __FILE__)
+$LOAD_PATH.push File.expand_path('../lib', __FILE__)
 
 # Maintain your gem's version:
 require 'meccano/version'
@@ -20,4 +20,18 @@ Gem::Specification.new do |s|
   s.add_dependency 'rails', '~> 4.2.6'
 
   s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'bundler'
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rspec-rails', '>= 2.7'
+  s.add_development_dependency 'factory_girl_rails', '>= 2.7'
+  s.add_development_dependency 'generator_spec'
+  s.add_development_dependency 'devise'
+  s.add_development_dependency 'coffee-rails'
+  s.add_development_dependency 'sprockets-rails'
+  s.add_development_dependency 'quiet_assets'
+  s.add_development_dependency 'capybara'
+  s.add_development_dependency 'ffaker'
+  s.add_development_dependency 'rubocop'
+  s.add_development_dependency 'launchy'
+  s.add_development_dependency 'spring-commands-rspec'
 end
