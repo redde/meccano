@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ['Oleg Bovykin', 'Konstantin Gorozhankin']
   s.email       = ['oleg.bovykin@gmail.com', 'knostantin.gorozhankin@gmail.com']
   s.homepage    = 'https://github.com/redde/meccano'
-  s.summary     = 'TODO: Summary of Meccano.'
-  s.description = 'TODO: Description of Meccano.'
+  s.summary     = 'Summary of Meccano.'
+  s.description = 'Description of Meccano.'
   s.license     = 'MIT'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
